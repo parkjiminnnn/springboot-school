@@ -9,5 +9,4 @@ public class JiminShopApplication {
     public static void main(String[] args) {
         SpringApplication.run(JiminShopApplication.class, args);
     }
-
 }

@@ -4,6 +4,16 @@
     application:
     name: JIminShop
 
+    devtools:
+      livereload:
+        enabled: true # 화면 갱신
+      restart:
+        enabled: true # 재시작
+
+    thymeleaf:
+      cache: false # 캐시 안함
+
+    #MYSQL 설정
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/spring_a

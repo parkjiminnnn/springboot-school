@@ -16,6 +16,6 @@ public class StartController {
                 .dept("컴퓨터공학")
                 .build();
         model.addAttribute("data",startDto);
-        return "start";
+        return "temp/temp";
     }
 }
